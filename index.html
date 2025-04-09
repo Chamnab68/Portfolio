@@ -23,13 +23,13 @@
         <div class="hero">
           <div class="image-user">
             <div class="profile">
-              <img src="./image/profile.webp" alt="" />
+              <img src="./image/pf.jpg" alt="" />
             </div>
           </div>
           <div class="content-text">
             <div class="text">
-              <h1>Hello I'm Justin,</h1>
-              <h1>Creative Technology</h1>
+              <h1 class="auto-type"></h1>
+             <h2>Creative Technology</h2>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Eligendi saepe id officiis dolores fuga in voluptas ullam libero
@@ -105,4 +105,13 @@
       <footer></footer>
     </div>
   </body>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('.auto-type', {
+      strings: ["Hello I'm Chamnab"],
+      typeSpeed: 120,
+      loop:true,
+      backspeed: 120
+    });
+  </script>
 </html>
